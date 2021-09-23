@@ -9,15 +9,22 @@
         <link rel="stylesheet" type="text/css" href="css/style.css">
     </head>
     <body id="gradient">
-        <h1>Background Generator</h1>
+        <header><h1>Background Generator</h1></header>        
 
-        <input class="color1" type="color" name="color1" value="#00ff00">
-        <input class="color2" type="color" name="color2" value="#ff0000">
+        <div class="container">
+            <p>
+                Click on the two inputs to select colors.
+                Click on the Random button to generate a random gradient.
+            </p>
+            <input class="color1" type="color" name="color1" value="#00ff00">
+            <input class="color2" type="color" name="color2" value="#ff0000">
+    
+            <h2>Current CSS Background</h2>
+            <p class="code">linear-gradient(to right, rgb(0, 255, 0), rgb(255, 0, 0));</p>
+    
+            <input type="button" name="random" value="Random" id="randomBtn">
 
-        <h2>Current CSS Background</h2>
-        <h3>linear-gradient(to right, rgb(0, 255, 0), rgb(255, 0, 0));</h3>
-
-        <input type="button" name="random" value="Random" id="randomBtn">
+        </div>
 
         <script type="text/javascript" src="js/script.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>

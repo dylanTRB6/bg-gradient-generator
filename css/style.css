@@ -11289,12 +11289,12 @@ h1 {
     color: rgba(0,0,0,.5);
     text-align: center;
     text-transform: uppercase;
-    letter-spacing: .5em;
+    letter-spacing: 0.2em;
     width: 100%;
 }
 
-h3 {
-    font: 900 1em 'Roboto', sans-serif;
+p {
+    font: 900 1em 'Lucida Sans', sans-serif;
     color: rgba(0,0,0,.5);
     text-align: center;
     text-transform: none;
@@ -11305,4 +11305,3 @@ input {
     background-color: blanchedalmond;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-
